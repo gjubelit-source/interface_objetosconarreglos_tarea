@@ -11,8 +11,9 @@ interface Curso {
     calificaciones: number[];
 }             
 let cursos: Curso[] = [
-    { id: 1, nombre: "Matemáticas", instructor: "Dr. Pérez", calificaciones: [8, 9, 7, 10] },
-    { id: 2, nombre: "Historia", instructor: "Prof. Gómez", calificaciones: [6, 7, 8, 5] },     ]   
+    { id: 1, nombre: "Matemáticas", instructor: "Dr. pepito juarez", calificaciones: [8, 9, 7, 10] },
+    { id: 2, nombre: "Historia", instructor: "Prof. Chanchito", calificaciones: [6, 7, 8, 5] }, 
+    { id: 3, nombre: "Programación", instructor: "Ing. Alexandra", calificaciones: [9, 10, 8, 9] }  ]
 
 cursos.forEach(curso => {
     const promedio = curso.calificaciones.reduce((a, b) => a + b, 0) / curso.calificaciones.length;
